@@ -20,7 +20,7 @@ No cloud telemetry, no background daemons, no package manager overhead.
 To install VaultGuard in an existing git repository, run:
 
 ```bash
-curl -fsSL [https://raw.githubusercontent.com/warknoc/vaultguard/main/vaultguard.sh](https://raw.githubusercontent.com/warknoc/vaultguard/main/vaultguard.sh) -o .git/hooks/pre-commit && chmod +x .git/hooks/pre-commit
+curl -fsSL https://raw.githubusercontent.com/warknoc/vaultguard/main/vaultguard.sh -o .git/hooks/pre-commit && chmod +x .git/hooks/pre-commit
 ```
 
 ---
