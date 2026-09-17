@@ -40,7 +40,7 @@ PATTERNS=(
 )
 
 for regex in "${PATTERNS[@]}"; do
-    matches=$(git diff --cached -S"dummy_search" --pickaxe-regex -G"$regex" --name-only || true)
+   matches=$(git diff --cached -G"$regex" --name-only || true)
     if [ -n "$matches" ]; then
         # Verify match is not an allow-secret pragma
         diff_lines=$(git diff --cached -G"$regex" | grep "^\+" | grep -v "^\+\+\+" || true)
