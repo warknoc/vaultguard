@@ -30,6 +30,6 @@ curl.exe -fsSL https://raw.githubusercontent.com/warknoc/vaultguard/main/vaultgu
 
 If VaultGuard saved your credentials from leaking, you can support development directly:
 
-- **USDC (Ethereum / Base):** `0x9805F8fd4A23Dd39cce11c03C10e6f966B1D6755`
+- **USDC (Ethereum / Base):** 0x9805F8fd4A23Dd39cce11c03C10e6f966B1D6755
 
 ```
